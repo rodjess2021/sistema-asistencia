@@ -7,7 +7,7 @@ if (empty($_SESSION['nombre']) and empty($_SESSION['apellido'])) {
 ?>
 
 <style>
-    ul li:nth-child(1) .activo {
+    ul li:nth-child(2) .activo {
         background: rgb(11, 150, 214) !important;
     }
 </style>
@@ -87,6 +87,7 @@ FROM
                 <th scope="col">BAÑO</th>
                 <th scope="col">SALIDA</th>
                 <th></th>
+                <th></th>
             </tr>
         </thead>
         <tbody>
@@ -107,9 +108,9 @@ FROM
                     <td><?= $datos->bano_inicio ?></td>
                     <td><?= $datos->bano ?></td>
                     <td><?= $datos->salida ?></td>
-                    <!-- <td>
+                    <td>
                     <a href="inicio.php?id=<?= $datos->id_asistencia ?>" onclick="advertencia(event)" class="btn btn-danger"><i class="fa-solid fa-trash"></i></a>
-                </td> -->
+                    </td>
 
                 </tr>
             <?php  }

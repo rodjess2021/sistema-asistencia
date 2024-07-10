@@ -7,7 +7,7 @@
 ?>
 
 <style>
-    ul li:nth-child(2) .activo{
+    ul li:nth-child(3) .activo{
         background: rgb(11, 150, 214) !important;
     }
 </style>

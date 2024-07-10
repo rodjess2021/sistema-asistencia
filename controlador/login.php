@@ -12,7 +12,7 @@
                 $_SESSION["nombre"]=$datos->nombre;
                 $_SESSION["apellido"]=$datos->apellido;
                 $_SESSION["id"]=$datos->id_usuario;
-                header("location:../inicio.php");
+                header("location:../inicio2.php");
             }else {
                 echo "<div class='alert alert-danger'>El usuario no existe</div>";
             }
